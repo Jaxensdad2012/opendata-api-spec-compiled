@@ -18,7 +18,29 @@
          },
          {
             "product_type": "BCA",
-            "downloadURLs": [
+            "downloadURLs": [{
+  "transaction_id": "wallet-transaction-id-sandbox-feca8a7a-5591-4aef-9297-f3062bb735d3",
+  "wallet_id": "wallet-id-production-53e58b32-fc1c-46fe-bbd6-e584b27a88",
+  "type": "PAYOUT",
+  "reference": "Payout 99744",
+  "amount": {
+    "iso_currency_code": "GBP",
+    "value": 12312
+  },
+  "status": "EXECUTED",
+  "created_at": "2020-12-02T21:14:54Z",
+  "last_status_update": "2020-12-02T21:15:01Z",
+  "counterparty": {
+    "numbers": {
+      "bacs": {
+        "account": "31926819",
+        "sort_code": "601613"
+      }
+    },
+    "name": "tyler"
+  },
+  "request_id": "4zlKapIkTm8p5KM"
+}
                "https://sqm.openbanking.org.uk/cma-service-quality-metrics/v1.0/product-type/bca/area/GB/export-type/full/wave/latest",
                "https://sqm.openbanking.org.uk/cma-service-quality-metrics/v1.0/product-type/bca/area/NI/export-type/full/wave/latest",
                "https://sqm.openbanking.org.uk/cma-service-quality-metrics/v1.0/product-type/bca/area/GB/export-type/aggregated/wave/latest",
